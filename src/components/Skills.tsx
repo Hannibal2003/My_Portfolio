@@ -5,13 +5,13 @@ import { Code, Database, Network } from "lucide-react";
 
 const Skills = () => {
   const programmingSkills = [
-    "C++", "Python", "Java", 
+    "C", "Python", "Java", 
     "HTML/CSS", "JavaScript", "TypeScript", 
     "XML", "Node.js", "SQL"
   ];
   
   const tools = [
-    "Git", "VS Code", "Jupyter Notebook", 
+    "Git","Github", "VS Code", "Jupyter Notebook", 
     "PyTorch", "TensorFlow", "Firebase", 
     "MongoDB", "Express", "React",
     "Docker", "AWS", "Tableau"
@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="section-title text-center mb-12">Technical Skills</h2>
+        <h2 className="section-title text-center mb-12">🖥️Technical Skills</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Programming Skills */}

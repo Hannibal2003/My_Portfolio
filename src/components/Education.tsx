@@ -13,24 +13,25 @@ const Education = () => {
     {
       id: 1,
       degree: "B.Tech Artificial Intelligence and Data Science",
-      institution: "Saranathan College of Higher Education",
+      institution: "Karpagam Academy of Higher Education",
       year: "2021 - 2025",
+      grade: "8.0 CGPA",
       icon: <GraduationCap className="text-teal" size={24} />,
     },
     {
       id: 2,
-      degree: "HSC (Higher Secondary School)",
-      institution: "Abraham Janus Memorial Matric Higher Secondary School",
+      degree: "HSC",
+      institution: "Abraham James Memorial Matric Higher Secondary School",
       year: "2021",
-      grade: "86%",
+      grade: "76%",
       icon: <GraduationCap className="text-teal" size={24} />,
     },
     {
       id: 3,
       degree: "SSLC",
-      institution: "Abraham Janus Memorial Matric Higher Secondary School",
+      institution: "Abraham James Memorial Matric Higher Secondary School",
       year: "2019",
-      grade: "89%",
+      grade: "69%",
       icon: <GraduationCap className="text-teal" size={24} />,
     },
   ];
@@ -40,18 +41,18 @@ const Education = () => {
     "Infosys Springboard": [
       { id: 1, title: "Introduction to Cyber Security", filePath: "/placeholder.svg" },
       { id: 2, title: "Introduction to Machine Learning", filePath: "/placeholder.svg" },
-      { id: 3, title: "Designing Front-end Python", filePath: "/placeholder.svg" },
+      { id: 3, title: "Designing Front-end Python", filePath: "1bdac819-189f-4880-8120-78b13aac0cee.png" },
     ],
     "Coursera": [
       { id: 4, title: "Data Analysis with Python", filePath: "/placeholder.svg" },
       { id: 5, title: "Excel Basics for Data Analysis", filePath: "/placeholder.svg" },
     ],
     "PadhAI E-Learning": [
-      { id: 6, title: "Python Programming", filePath: "/placeholder.svg" },
+      { id: 6, title: "Python Programming", filePath: "Screenshot 2025-04-27 192947.png" },
     ],
     "NPTL": [
       // Add NPTL certificates here if available
-      // { id: 7, title: "Example NPTL Course", filePath: "/path/to/nptl_cert.pdf" },
+      { id: 7, title: "Example NPTL Course", filePath: "/path/to/nptl_cert.pdf" },
     ]
   };
   // Filter out providers with no certificates
@@ -68,13 +69,13 @@ const Education = () => {
     {
       id: 2,
       role: "Workshop",
-      company: "Underwent 3-days Workshop for Mobile App Development Conducted by Kaigotsu",
+      company: "Underwent 3-days Workshop for Mobile App Development Conducted at Karpagam Academy of Higher Educationu",
       icon: <Briefcase className="text-teal" size={24} />,
     },
     {
       id: 3,
       role: "Workshop",
-      company: "Underwent 4-days Workshop for Tableau Tool Conducted at Saranathan Academy of Higher Education",
+      company: "Underwent 4-days Workshop for Tableau Tool Conducted at Karpagam Academy of Higher Education",
       icon: <Briefcase className="text-teal" size={24} />,
     },
   ];
@@ -82,7 +83,7 @@ const Education = () => {
   return (
     <section id="education" className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="section-title text-center mb-12 animate-fade-in">Education & Experience</h2>
+        <h2 className="section-title text-center mb-12 animate-fade-in">🎓Education & Experience</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Column - Education */}
@@ -130,7 +131,7 @@ const Education = () => {
           
           {/* Right Column - Certificates */}
           <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            <h3 className="text-2xl font-bold mb-8 text-charcoal">Certificates</h3>
+            <h3 className="text-3xl font-bold mb-9 text-charcoal">📜Certificates</h3>
             <div className="space-y-8">
               {providersWithCerts.map(([provider, certs], providerIndex) => (
                 <div key={provider} className="animate-slide-up" style={{ animationDelay: `${0.3 + (providerIndex * 0.2)}s` }}>

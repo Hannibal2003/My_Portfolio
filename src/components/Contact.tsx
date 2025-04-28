@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-white py-16">
       <div className="container mx-auto px-4">
-        <h2 className="section-title text-center mb-12">Get In Touch</h2>
+        <h2 className="section-title text-center mb-12">📬Get In Touch</h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Contact Info */}
@@ -57,8 +57,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <p className="text-gray-600 mt-1">
-                    21, Kailasapuram First Street, Ponmalai (Pondy),
-                    <br />Tiruchirappalli-620004
+                    Mukkalavilai pacode,
+                    <br />Kanyakumar-629168
                   </p>
                 </div>
               </div>
@@ -78,16 +78,16 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a href="tel:+919443319919" className="text-teal hover:underline">
-                    +91 9443319919
+                    +91 9043510919
                   </a>
                 </div>
               </div>
 
               <div>
-                <h4 className="font-medium mb-4">Connect</h4>
+                <h4 className="font-medium mb-4">🔗Connect</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/HannibalJanus"
+                    href="https://github.com/Hannibal2003"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 hover:bg-teal hover:text-white p-2 rounded-full transition-colors"
@@ -95,7 +95,7 @@ const Contact = () => {
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/hannibal-janus-p-j-976a82a4/"
+                    href="https://www.linkedin.com/in/hannibal-janus-p-j-9879ab228/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 hover:bg-teal hover:text-white p-2 rounded-full transition-colors"
@@ -103,19 +103,19 @@ const Contact = () => {
                     <Linkedin size={20} />
                   </a>
                   <a
-                    href="https://instagram.com/HannibalJ2003"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 hover:bg-teal hover:text-white p-2 rounded-full transition-colors"
                   >
                     <Instagram size={20} />
                   </a>
-                  <a
-                    href="mailto:hannibaljanus2003@gmail.com"
+                  {/* <a
+                    href="hannibaljanus2003@gmail.com"
                     className="bg-gray-100 hover:bg-teal hover:text-white p-2 rounded-full transition-colors"
                   >
                     <Mail size={20} />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </CardContent>
